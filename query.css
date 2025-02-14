@@ -1,0 +1,493 @@
+
+@media (max-width:1600px) {
+    html{
+        font-size: 60%;
+    }
+    .reviews-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        row-gap: 5rem;
+        column-gap: 10rem;
+    }
+
+
+    .Hero-container{
+        max-width: 140rem;
+    }
+
+    .about-card{
+        max-width: 140rem;
+        
+    
+    }
+
+    .containerMenuCoffee{
+        max-width: 144.4rem;      
+    }
+
+    .containerMenuBakery{
+        max-width: 144.4rem;
+    }
+    .contactUs{
+        max-width: 140rem;
+    }
+    .r1{
+        justify-self: end;
+    }
+    .contactUs img{
+        width: 80%;
+    }
+    .contact-form button{
+        margin-bottom: 5rem;
+    }
+    .backgroundCover{display: none;}
+}
+
+@media (max-width:1400px) {
+    html{
+        font-size: 60%;
+    }
+    .reviews-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        row-gap: 5rem;
+        column-gap: 10rem;
+    }
+
+
+    .Hero-container{
+        max-width: 100rem;
+    }
+
+    .about-card{
+        max-width: 100rem;
+        
+    
+    }
+
+    .containerMenuCoffee{
+        max-width: 108.3rem;      
+    }
+
+    .containerMenuBakery{
+        max-width: 108.3rem;
+    }
+    .contactUs{
+        max-width: 100rem;
+    }
+    .r1{
+        justify-self: end;
+    }
+    .contactUs img{
+        width: 80%;
+    }
+    .contact-form button{
+        margin-bottom: 5rem;
+    }
+    .backgroundCover{display: none;}
+}
+
+@media (max-width:1100px) {
+    html{
+        font-size: 58%;
+    }
+    .reviews-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        row-gap: 5rem;
+        column-gap: 10rem;
+    }
+
+
+    .Hero-container{
+        max-width: 80rem;
+    }
+
+    .about-card{
+        max-width: 90rem;
+        
+    
+    }
+
+    .containerMenuCoffee{
+        max-width: 72.2rem;      
+    }
+
+    .containerMenuBakery{
+        max-width: 72.2rem;
+    }
+    .contactUs{
+        max-width: 70rem;
+    }
+    .r1{
+        justify-self: end;
+    }
+    .contact-img{
+        justify-self: center;
+        margin-left: 3rem;
+    }
+    .contactUs img{
+        width: 50rem;
+        height: 80%;
+        
+    }
+    .contact-form button{
+        margin-bottom: 5rem;
+    }
+    .backgroundCover{display: none;}
+
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        display: none;
+    }
+    header ul a{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .search i{
+        display: none;
+    }
+    nav{
+    
+        justify-content: space-around;
+
+    }
+    nav .listnav{
+        font-size: 3.8rem;
+        color: #ffd097;
+        
+        
+    }
+
+    .about-img{
+        width: 50rem;
+        height: 30rem;
+    
+    }
+}
+
+
+@media (max-width:850px) {
+    html{
+        font-size: 55%;
+    }
+    .reviews-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        row-gap: 5rem;
+        column-gap: 10rem;
+    }
+
+
+    .Hero-container{
+        max-width: 80rem;
+    }
+
+    .about-card{
+        max-width: 70rem;
+        flex-direction: column;
+        height: 100rem;
+    
+    }
+    .about-img img{
+        width: 70rem;
+        height: 40rem;
+    
+    }
+    .about-card .about-text{
+        width: 100%;
+        
+    }
+
+    .containerMenuCoffee{
+        max-width: 72.2rem;      
+    }
+
+    .containerMenuBakery{
+        max-width: 72.2rem;
+    }
+    .contactUs{
+        max-width: 70rem;
+    }
+    .r1{
+        justify-self: center;
+
+    }
+    .review-card{
+        justify-self: center;
+    }
+    .contact-img{
+        justify-self: center;
+        margin-left: 3rem;
+    }
+    .contactUs img{
+        width: 40rem;
+        height: 80%;
+        display: none;
+        
+    }
+    .card-contact{
+        display: grid;
+        grid-template-columns:  3fr;
+        grid-template-rows: 1fr;
+    }
+    .contact-form button{
+        margin-bottom: 5rem;
+    }
+    .backgroundCover{display: none;}
+
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        display: none;
+    }
+    header ul a{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .search i{
+        display: none;
+    }
+    nav{
+    
+        justify-content: space-around;
+
+    }
+    nav .listnav{
+        font-size: 3.8rem;
+        color: #ffd097;
+        
+        
+    }
+
+    .about-img{
+        width: 50rem;
+        height: 30rem;
+    
+    }
+}
+
+@media (max-width:750px) {
+    html{
+        font-size: 49%;
+    }
+    .reviews-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        row-gap: 5rem;
+        column-gap: 10rem;
+    }
+
+
+    .Hero-container{
+        max-width: 60rem;
+    }
+
+    .about-card{
+        max-width: 60rem;
+        flex-direction: column;
+        height: 100rem;
+    
+    }
+    .about-img img{
+        width: 70rem;
+        height: 40rem;
+    
+    }
+    .about-card .about-text{
+        width: 100%;
+        
+    }
+
+    .containerMenuCoffee{
+        max-width: 36.1rem;      
+    }
+
+    .containerMenuBakery{
+        max-width: 36.1rem;
+    }
+    .contactUs{
+        max-width: 70rem;
+    }
+    .r1{
+        justify-self: center;
+
+    }
+    .review-card{
+        justify-self: center;
+    }
+    .contact-img{
+        justify-self: center;
+        margin-left: 3rem;
+    }
+    .contactUs img{
+        width: 40rem;
+        height: 80%;
+        display: none;
+        
+    }
+    .card-contact{
+        display: grid;
+        grid-template-columns:  3fr;
+        grid-template-rows: 1fr;
+    }
+    .contact-form button{
+        margin-bottom: 5rem;
+    }
+    .backgroundCover{display: none;}
+
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        display: none;
+    }
+    header ul a{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .search i{
+        display: none;
+    }
+    nav{
+    
+        justify-content: space-around;
+
+    }
+    nav .listnav{
+        font-size: 3.8rem;
+        color: #ffd097;
+        
+        
+    }
+
+    .about-img img{
+        width: 50rem;
+        height: 30rem;
+    
+    }
+}
+
+@media (max-width:400px) {
+    html{
+        font-size: 39%;
+    }
+    .reviews-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        row-gap: 5rem;
+        column-gap: 10rem;
+    }
+    .discount{
+        display: none;
+    }
+
+
+    .Hero-container{
+        max-width: 400px;
+    }
+    .Hero-container{
+        max-width: 160rem;
+        height: inherit;
+        margin: 0rem 10rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -10rem;
+        
+    }
+    .about-card{
+        max-width: 35rem;
+        flex-direction: column;
+        height: 100rem;
+    
+    }
+    .about-img img{
+        width: 40rem;
+        height: 40rem;
+    
+    }
+    .about-card .about-text{
+        width: 100%;
+        
+    }
+
+    .containerMenuCoffee{
+        max-width: 36.1rem;      
+    }
+
+    .containerMenuBakery{
+        max-width: 36.1rem;
+    }
+    .contactUs{
+        max-width: 70rem;
+    }
+    .r1{
+        justify-self: center;
+
+    }
+    .review-card{
+        justify-self: center;
+    }
+    .contact-img{
+        justify-self: center;
+        margin-left: 3rem;
+    }
+    .contactUs img{
+        width: 40rem;
+        height: 80%;
+        display: none;
+        
+    }
+    .card-contact{
+        display: grid;
+        grid-template-columns:  3fr;
+        grid-template-rows: 1fr;
+    }
+    .contact-form button{
+        margin-bottom: 5rem;
+    }
+    .backgroundCover{display: none;}
+
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        display: none;
+    }
+    header ul a{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .search i{
+        display: none;
+    }
+    nav{
+        width: 390px;
+        justify-content: space-around;
+
+    }
+    nav .listnav{
+        font-size: 3.8rem;
+        color: #ffd097;
+        
+        
+    }
+
+    .about-img{
+        width: 50rem;
+        height: 30rem;
+    
+    }
+}
