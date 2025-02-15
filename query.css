@@ -379,7 +379,7 @@
 
 @media (max-width:400px) {
     html{
-        font-size: 45%;
+        font-size: 46%;
     }
     .reviews-container{
         grid-template-columns: repeat(1,1fr);
