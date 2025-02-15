@@ -175,7 +175,7 @@ heroOrderNow.addEventListener('mouseover',function(){
 /* -------   backgroundCover  -----------*/
 /* --------------------------------------*/
 
-const backgroundCover = document.querySelector(".backgroundCover");
+/*const backgroundCover = document.querySelector(".backgroundCover");
 let checkBackgroundCover = true;
 const HeroSection = document.querySelector(".HeroSection")
 backgroundCover.addEventListener('click',function(){
@@ -192,7 +192,7 @@ backgroundCover.addEventListener('click',function(){
     HeroSection.style.backgroundImage =
     "linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('./img/cover-2.jpeg')";
   }
-})
+})*/
 
 /* --------------------------------------*/
 /* ------------   About  ----------------*/
