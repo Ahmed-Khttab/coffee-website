@@ -297,7 +297,7 @@
     
     }
     .about-img img{
-        width: 70rem;
+        width: 40rem;
         height: 40rem;
     
     }
@@ -371,13 +371,13 @@
     }
 
     .about-img img{
-        width: 50rem;
+        width: 40rem;
         height: 30rem;
     
     }
 }
 
-/*@media (max-width:400px) {
+@media (max-width:400px) {
     html{
         font-size: 46%;
     }
@@ -393,7 +393,12 @@
     .discount i{
         display: none;
     }
-
+    .sticky{
+        max-width: 400px;
+    }
+    .logo{
+        font-size: 2.8rem;
+    }
 
     .Hero-container{
         max-width: 100%;
@@ -477,7 +482,7 @@
         position: fixed;
         background-color: #3B2F2F;  
         z-index: 10;
-        display: none;
+       
     }
     
     nav{
@@ -493,4 +498,4 @@
     }
 
     
-}*/
+}
